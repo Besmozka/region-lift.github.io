@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ООО "ЛифтСервис"</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    header {
+      background: #020617;
+      padding: 20px 0;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav a {
+      color: #94a3b8;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      padding: 100px 20px;
+      background: linear-gradient(rgba(2,6,23,0.9), rgba(2,6,23,0.95));
+      text-align: center;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 34px;
+    }
+
+    .hero p {
+      color: #94a3b8;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    .light {
+      background: #f1f5f9;
+      color: #1e293b;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      line-height: 1.6;
+      color: inherit;
+    }
+
+    .light p {
+      color: #334155;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .service {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .light .service {
+      background: white;
+      border: 1px solid #e2e8f0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .requisites p {
+      margin: 6px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #64748b;
+      background: #020617;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div><strong>ООО "ЛифтСервис"</strong></div>
+      <div>
+        <a href="#about">О компании</a>
+        <a href="#services">Услуги</a>
+        <a href="#clients">Объекты</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="container">
+    <h1>Техническое обслуживание лифтов</h1>
+    <p>Жилые дома и коммерческие объекты</p>
+  </div>
+</div>
+
+<!-- О КОМПАНИИ -->
+<section id="about">
+  <div class="container">
+    <h2>О компании</h2>
+
+    <p>
+      ООО "ЛифтСервис" осуществляет деятельность в области технического обслуживания,
+      ремонта и диагностики лифтового оборудования в жилых и коммерческих зданиях.
+    </p>
+
+    <p>
+      Основное направление работы компании — обеспечение бесперебойной и безопасной эксплуатации
+      лифтов в многоквартирных домах, административных зданиях и объектах коммерческой недвижимости.
+    </p>
+
+    <p>
+      Работы выполняются в соответствии с установленными техническими регламентами,
+      нормативными требованиями и эксплуатационной документацией производителей оборудования.
+    </p>
+
+  </div>
+</section>
+
+<!-- УСЛУГИ -->
+<section id="services">
+  <div class="container">
+    <h2>Услуги</h2>
+
+    <div class="grid">
+      <div class="service">Техническое обслуживание лифтового оборудования</div>
+      <div class="service">Ремонт лифтов</div>
+      <div class="service">Аварийное обслуживание</div>
+      <div class="service">Диагностика</div>
+    </div>
+  </div>
+</section>
+
+<!-- ПОДХОД -->
+<section class="light">
+  <div class="container">
+    <h2>Подход к обслуживанию</h2>
+
+    <p>
+      Техническое обслуживание лифтового оборудования осуществляется на регулярной основе
+      в рамках заключенных договоров. Перечень работ определяется с учетом типа оборудования,
+      интенсивности эксплуатации и требований нормативной документации.
+    </p>
+
+    <p>
+      В процессе обслуживания выполняется комплекс мероприятий, направленных на поддержание
+      работоспособности узлов и механизмов, своевременное выявление неисправностей и предотвращение аварийных ситуаций.
+    </p>
+
+    <p>
+      Все работы выполняются квалифицированными специалистами с использованием специализированного инструмента
+      и оборудования.
+    </p>
+
+  </div>
+</section>
+
+<!-- КЛИЕНТЫ -->
+<section id="clients" class="light">
+  <div class="container">
+    <h2>Обслуживаемые объекты</h2>
+
+    <p>
+      Компания осуществляет техническое обслуживание лифтового оборудования
+      в жилых комплексах, административных зданиях и объектах коммерческой недвижимости.
+    </p>
+
+    <p>
+      Обслуживание выполняется на постоянной договорной основе с соблюдением требований
+      нормативной и технической документации.
+    </p>
+
+    <p>В числе обслуживаемых организаций:</p>
+
+    <ul>
+      <li>ООО УК "Престиж и К"</li>
+      <li>ООО УК "3-й микрорайон"</li>
+      <li>ТСЖ "Кондоминиум-Восточный"</li>
+      <li>ООО "Кондоминиум +"</li>
+      <li>МСЧ "Нефтяник"</li>
+    </ul>
+
+  </div>
+</section>
+
+<!-- ДОП ИНФО -->
+<section>
+  <div class="container">
+    <h2>Дополнительная информация</h2>
+
+    <p>
+      Компания взаимодействует с управляющими организациями, товариществами собственников жилья,
+      а также собственниками коммерческой недвижимости.
+    </p>
+
+    <p>
+      Работы по техническому обслуживанию выполняются в соответствии с графиками,
+      согласованными с заказчиком, с учетом особенностей эксплуатации объектов.
+    </p>
+
+    <p>
+      При необходимости выполняются работы по устранению неисправностей,
+      выявленных в процессе эксплуатации оборудования.
+    </p>
+
+  </div>
+</section>
+
+<!-- КОНТАКТЫ -->
+<section id="contacts">
+  <div class="container">
+    <h2>Контакты и реквизиты</h2>
+
+    <div class="requisites">
+      <p><strong>ООО "ЛифтСервис"</strong></p>
+      <p>ИНН: 0000000000</p>
+      <p>ОГРН: 0000000000000</p>
+      <p>Юридический адрес: г. Москва, ул. Примерная, д. 1</p>
+      <p>Фактический адрес: г. Москва, ул. Примерная, д. 1</p>
+      <p>Телефон: +7 (000) 000-00-00</p>
+      <p>Email: info@liftservice.ru</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 ООО "ЛифтСервис"
+</footer>
+
+</body>
+</html>
